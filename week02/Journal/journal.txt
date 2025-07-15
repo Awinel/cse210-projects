@@ -1,0 +1,12 @@
+[
+  {
+    "Date": "2025-07-14",
+    "PromptText": "Describe something that you would try to improve about yourself.",
+    "EntryText": "Have more patience with myself"
+  },
+  {
+    "Date": "2025-07-14",
+    "PromptText": "If I had one thing I could do over today, what would it be?",
+    "EntryText": "Catch the current term"
+  }
+]

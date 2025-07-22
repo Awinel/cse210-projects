@@ -30,21 +30,21 @@ class Program
             Console.WriteLine(scripture.GetDisplayText());
             Console.WriteLine();
             
-            // Prompt user
+            
             Console.WriteLine("Press enter to continue or type 'quit' to finish:");
             string input = Console.ReadLine();
             
-            // Check if user wants to quit
+            
             if (input.ToLower() == "quit")
             {
                 break;
             }
             
-            // Hide some random words (try 3 at a time)
+            
             scripture.HideRandomWords(3);
         }
         
-        // Final display when all words are hidden
+        
         Console.Clear();
         Console.WriteLine(scripture.GetDisplayText());
         Console.WriteLine("\nCongratulations! You've completed the scripture!");

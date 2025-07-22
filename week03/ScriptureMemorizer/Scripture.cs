@@ -20,7 +20,7 @@ class Scripture
         }
     }
 
-    // This should return the reference + all words (hidden or visible)
+    
     public string GetDisplayText()
     {
         string result = _reference.GetDisplayText();
